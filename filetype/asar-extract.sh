@@ -5,8 +5,8 @@ if ! command -v npx > /dev/null 2>&1; then
 	exit 1
 fi
 
-read -p "Asar file: " FILE_NAME
-read -p "Dst dir: " DST_DIR
+read -e -p "Asar file: " FILE_NAME
+read -e -p "Dst dir: " DST_DIR
 
 if [ ! -d "$DST_DIR" ]; then
 	mkdir -p "$DST_DIR"
