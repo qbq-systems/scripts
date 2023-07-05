@@ -22,7 +22,8 @@ sudo apt install -y \
   wget
 
 sudo apt install -y \
-  lsof
+  lsof \
+  software-properties-common
 
 sudo apt install -y \
   frei0r-plugins
