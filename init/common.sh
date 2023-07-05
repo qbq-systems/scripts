@@ -26,5 +26,6 @@ sudo apt install -y \
   software-properties-common
 
 sudo apt install -y \
-  frei0r-plugins
+  frei0r-plugins \
+  nvidia-detect
 
