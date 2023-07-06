@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt remove teamviewer
+sudo apt remove -y teamviewer
 sudo rm -f /etc/apt/sources.list.d/teamviewer.list
 sudo rm -rf /etc/teamviewer/
 sudo rm -rf /opt/teamviewer/
