@@ -23,7 +23,8 @@ sudo apt install -y \
 
 sudo apt install -y \
   lsof \
-  software-properties-common
+  software-properties-common \
+  tmux
 
 sudo apt install -y \
   frei0r-plugins \
