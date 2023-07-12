@@ -22,6 +22,7 @@ sudo apt install -y \
   wget
 
 sudo apt install -y \
+  bloomrpc \
   lsof \
   software-properties-common \
   tmux
